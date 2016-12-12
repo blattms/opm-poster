@@ -27,7 +27,7 @@ and the data under the Open Database License.
 * Authors
 [2016-12-12 Mo 21:55]
 
-| Name          | Affiliation                                    | email                 |
-|---------------+------------------------------------------------+-----------------------|
-| Blatt, Markus | Dr. Blatt - HPC-Simulation-Software & Services | markus AT dr.blatt.de |
-|               |                                                |                       |
+| Name               | Affiliation                                    | email                          |
+|--------------------+------------------------------------------------+--------------------------------|
+| Blatt, Markus      | Dr. Blatt - HPC-Simulation-Software & Services | markus AT dr.blatt.de          |
+| Rasmussen, Atgeirr | SINTEF ICT                                     | Atgeirr.Rasmussen AT sintef.no |
