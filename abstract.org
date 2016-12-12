@@ -1,0 +1,33 @@
+* The "Porous Media Initiative" (OPM) software
+[2016-12-12 Mo 20:52]
+
+In this poster we will give an overview of the "Open Porous Media
+Initiative" (OPM, http://opm-project.org) software and open data modules. It is a collaborative
+effort of both academia and industry to foster collaboration between
+both and thus facilitate innovation using an open source approach. The
+current development focus is CO2 sequestration and improved and
+enhanced oil recovery. Among the contributors are IRIS, SINTEF ICT,
+Statoil, and Ceetron Solutions.
+
+The OPM software, in part based on DUNE (http://dune-project.org), contains various solvers for
+porous media flow (IMPES, two-phase incompressible transport, a
+reordering-based two-phase polymer solver, and a parallel fully
+implicit black-oil solver). In addition solvers for flow-based
+upscaling of both permeability (single-phase upscaling) and relative
+permeability (two-phase upscaling), including capability for
+steady-state upscaling are included. For the fast and easy
+visualization of reservoir simulations it also provides the tool
+ResInsight. Together with the software OPM provides various SPE test
+data sets, and the data of the Norne oil field as open data to allow
+easy experiments and benchmarking.
+
+The software licensed under GNU General Public License (GPL) version 3
+and the data under the Open Database License.
+
+* Authors
+[2016-12-12 Mo 21:55]
+
+| Name          | Affiliation                                    | email                 |
+|---------------+------------------------------------------------+-----------------------|
+| Blatt, Markus | Dr. Blatt - HPC-Simulation-Software & Services | markus AT dr.blatt.de |
+|               |                                                |                       |
