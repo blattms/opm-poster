@@ -1,0 +1,3 @@
+ResInsight is an open-source, cross-platform, 3D post-processing software focusing on reservoir models and reservoir simulations. The user interface is designed specifically for efficient interpretation and analysis of reservoir simulation data with specialized visualization and manipulation of grids, properties, faults and wells. Efficient plotting and analysis of well curves and summary vectors are also included. It can also be configured to process geomechanical simulations with ABAQUS. Integration with GNU Octave provides more flexible result manipulation and analyzation.
+
+ResInsight has been co-developed by Statoil ASA, Ceetron Solutions AS, and Ceetron AS. More information can be found on ResInsight website http://resinsight.org/. 
