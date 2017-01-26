@@ -4,34 +4,35 @@
 ** Black oil equations
 [2017-01-26 Do 14:13]
 \begin{equation}
-\frac{\partial}{\partial t} \left[ \phi \left( \frac{S_o}{B_o} + \frac{R_V
-S_g}{B_g}\right)\right] + \nabla \cdot \left(\frac{1}{B_o} {\mathbf
-{\mathbf u}}_o + \frac{R_V}{B_g} 
-u_g \right)= q_o
+\frac{\partial}{\partial t} \left[ \phi \left( \frac{s_o}{B_o} + \frac{r_v
+s_g}{B_g}\right)\right] + \nabla \cdot \left(\frac{1}{B_o} {\mathbf
+{\mathbf v}}_o + \frac{r_v}{B_g}
+v_g \right)= q_o + r_v q_g
 \end{equation}
 \begin{equation}
-\frac{\partial}{\partial t} \left[\phi \left(\frac{R_s S_o}{B_o} +
-\frac{S_g}{B_g} \right) \right] + \nabla \left( \frac{R_s}{B_o}
-{\mathbf u}_o + \frac{1}{B_g} {\mathbf u}_g\right) = R_s q_o + q_g
+\frac{\partial}{\partial t} \left[\phi \left(\frac{r_s s_o}{B_o} +
+\frac{s_g}{B_g} \right) \right] + \nabla \left( \frac{r_s}{B_o}
+{\mathbf v}_o + \frac{1}{B_g} {\mathbf v}_g\right) = r_s q_o + q_g
 \end{equation}
 \begin{equation}
-\frac{\partial}{\partial t} \left[ \phi  \frac{S_w}{B_w}
-\right] + \nabla \cdot \left( \frac{1}{B_w} {\mathbf u}_w \right) = q_w\,,
+\frac{\partial}{\partial t} \left[ \phi  \frac{s_w}{B_w}
+\right] + \nabla \cdot \left( \frac{1}{B_w} {\mathbf v}_w \right) = q_w\,,
 \end{equation}
-where S_o, S_g, S_w are the oil, gas and water saturation satisfying
+where \(s_o, s_g, s_w\) are the oil, gas and water saturation satisfying
 \begin{equation}
-S_o + S_g + S_w = 1\,.
+s_o + s_g + s_w = 1\,.
 \end{equation}
-u_l with $l \in \{o, g, w\}$ are the well known Darcy velocities defined by
+\({\mathbf v}_\alpha\) with $\alpha \in \{o, g, w\}$ are the well known Darcy velocities defined by
 \begin{equation}
-{\mathbf u}_l = - \frac{K}{\mu_l} \left(\nabla p_l - \rho_l {\mathbf g} \right) \quad l \in
+{\mathbf v}_\alpha = - \frac{k_{r,\alpha}}{\mu_\alpha} K \left(\nabla p_\alpha - \rho_\alpha {\mathbf g} \right) \quad \alpha \in
 \{o, g, w\}
 \end{equation}
-dependant on the phase pressure p_l, the absolute permeability tensor
- K, the viscosity \mu_l of phase l,  and
-the density of phase l \rho_l. B_l is the volume formation factor of
-phase l, R_s is the solution gas-oil ratio, R_v the vaporized oil
-formation factor, q_l the well term of phase l and \phi the porosity. 
+dependant on the phase pressure $p_\alpha$, the absolute permeability tensor
+$K$, the viscosity $\mu_\alpha$ of phase $\alpha$,  and
+the phase density $\rho_\alpha$. $B_\alpha$ is the volume formation factor of
+phase $\alpha$, $r_s$ is the solution gas-oil ratio, $r_v$ the
+vaporized oil ratio, $q_\alpha$ the well term of phase $\alpha$ and $\phi$ the porosity,
+$k_{r,\alpha}$ is the relative permeability of the phase $\alpha$.
 
 ** Well Models
 [2017-01-26 Do 14:13]
