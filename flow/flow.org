@@ -1,0 +1,72 @@
+* Fully Implicit Black Oil Simulator
+[2017-01-21 Sa 13:33]
+
+** Black oil equations
+[2017-01-26 Do 14:13]
+\begin{equation}
+\frac{\partial}{\partial t} \left[ \phi \left( \frac{S_o}{B_o} + \frac{R_V
+S_g}{B_g}\right)\right] + \nabla \cdot \left(\frac{1}{B_o} {\mathbf
+{\mathbf u}}_o + \frac{R_V}{B_g} 
+u_g \right)= q_o
+\end{equation}
+\begin{equation}
+\frac{\partial}{\partial t} \left[\phi \left(\frac{R_s S_o}{B_o} +
+\frac{S_g}{B_g} \right) \right] + \nabla \left( \frac{R_s}{B_o}
+{\mathbf u}_o + \frac{1}{B_g} {\mathbf u}_g\right) = R_s q_o + q_g
+\end{equation}
+\begin{equation}
+\frac{\partial}{\partial t} \left[ \phi  \frac{S_w}{B_w}
+\right] + \nabla \cdot \left( \frac{1}{B_w} {\mathbf u}_w \right) = q_w\,,
+\end{equation}
+where S_o, S_g, S_w are the oil, gas and water saturation satisfying
+\begin{equation}
+S_o + S_g + S_w = 1\,.
+\end{equation}
+u_l with $l \in \{o, g, w\}$ are the well known Darcy velocities defined by
+\begin{equation}
+{\mathbf u}_l = - \frac{K}{\mu_l} \left(\nabla p_l - \rho_l {\mathbf g} \right) \quad l \in
+\{o, g, w\}
+\end{equation}
+dependant on the phase pressure p_l, the absolute permeability tensor
+ K, the viscosity \mu_l of phase l,  and
+the density of phase l \rho_l. B_l is the volume formation factor of
+phase l, R_s is the solution gas-oil ratio, R_v the vaporized oil
+formation factor, q_l the well term of phase l and \phi the porosity. 
+
+** Well Models
+[2017-01-26 Do 14:13]
+
+The simulator supports two well models: a standard one that we will
+describe here and  a multisegment well mode as described in
+cite:holmes1998application. 
+
+TODO describe equations.
+
+** Hard Numerical Problem
+[2017-01-26 Do 14:14]
+
++ Properties dependant on saturation and pressure.
++ Highly nonlinear
++ Highly coupled
++ Complicated geometry (faults, irregular domains)
++ Permeability jumps.
+
+** Discretization and Solver
+[2017-01-26 Do 14:22]
+
++ Cornerpoint Grid
++ Cell centered finite volums with upwinding
++ Two point flux approximation
++ Fully implicit formulation
++ CPR with AMG / Block ILU0
+
+The simulator can read and write to and from files formatted for the
+commercial reservoir simulator Eclipse. This makes
+switching to OPM as easy as possible as the file
+format is a de facto industry standard.
+
+** Input / output
+[2017-01-26 Do 14:25]
+
+The simulator can read and write to formatted for the commericial oil
+reservoir simulator Eclipse.
