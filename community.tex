@@ -1,0 +1,182 @@
+\documentclass[UKenglish,10pt]{beamer}
+\usepackage{amsmath, amsfonts, amssymb}
+\usepackage{pgf, tikz, bbm, svn}
+\usepackage[latin1]{inputenc}
+\usepackage{listings}
+
+\lstset{language=C++, basicstyle=\tiny}
+\newcommand{\Code}[1]{\texttt{#1}}
+
+
+\usefonttheme{professionalfonts}
+
+\definecolor{sintefblue}{rgb}{0.0,0.2,0.4}
+\definecolor{dr}{rgb}{0.6,0.0,0.0}
+\definecolor{dg}{rgb}{0.0,0.3,0.0}
+\definecolor{db}{rgb}{0.0,0.0,0.5}
+\setbeamercolor{uppercol}{fg=white,bg=sintefblue!80}
+\setbeamercolor{lowercol}{fg=orange,bg=black!15}
+
+\newcommand{\COto}{CO\ensuremath{_\mathsf{2}}}
+\newcommand{\Tensor}[1]{\ensuremath{\mathsf{#1}}}
+\newcommand{\Vector}[1]{\ensuremath{\boldsymbol{#1}}}
+\newcommand{\Matrix}[1]{\ensuremath{\boldsymbol{#1}}}
+\newcommand{\T}        {\ensuremath{\mathsf{T}}}
+\newcommand{\Grad}     {\ensuremath{\nabla}}
+
+\newcommand{\dunemod}[1]{\textsl{dune-{#1}}}
+\newcommand{\opmmod} [1]{\textsl{opm{#1}}}
+\newcommand{\dumux}    {DuMu\ensuremath{^{\mathrm X}}}
+
+\def\bfK{{\bf K}}
+\def\bfv{{\bf v}}
+\def\bfn{{\bf n}}
+
+
+\DeclareMathOperator{\Div}{div}
+
+
+
+
+\usepackage{listings}
+\usepackage{color}
+\usepackage{textcomp}
+\definecolor{listinggray}{gray}{0.9}
+\definecolor{lbcolor}{rgb}{0.95,0.95,0.95}
+\definecolor{lightgray}{gray}{0.3}
+\lstset{%
+  xleftmargin= 4pt,
+  xrightmargin=4pt}
+\lstdefinelanguage{MRST}{%
+  alsoletter={...},%
+  morekeywords={%                             % keywords
+  break,case,catch,continue,elseif,else,end,for,function,global,%
+  if,otherwise,persistent,return,switch,try,while,...},%
+  comment=[l]\%,%                             % comments
+  morecomment=[l]...,%                        % comments
+  morestring=[m]',%                           % strings
+}[keywords,comments,strings]%
+\lstset{
+  backgroundcolor=\color{lbcolor},
+  tabsize=4,
+  rulecolor=,
+  language=MRST,
+  basicstyle=\small,
+  upquote=true,
+  aboveskip={0.5\baselineskip},
+  columns=flexible,
+  showstringspaces=false,
+  extendedchars=true,
+%  breaklines=true,
+  prebreak = \raisebox{0ex}[0ex][0ex]{\ensuremath{\hookleftarrow}},
+  frame=single,
+  showtabs=false,
+  showspaces=false,
+  showstringspaces=false,
+  identifierstyle=\ttfamily,
+  keywordstyle=\color[rgb]{0,0,1},
+  commentstyle=\color[rgb]{0.133,0.545,0.133},
+  stringstyle=\color[rgb]{0.627,0.126,0.941},
+}
+\newcommand{\mcode}[1]{\lstinline|#1|}
+
+\tikzset{Workflow Stage/.style=%
+        {rectangle, draw=blue!50, fill=blue!20, thick, %
+         text width=35mm}}
+
+
+\title{Community}
+\author[Atgeirr F. Rasmussen]{Atgeirr Fl{\o} Rasmussen}
+\institute[SINTEF]{SINTEF ICT, Dept. Applied Mathematics}
+\date[2017--01--26]{26th January 2017}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+
+%============================================
+\section{The OPM Community}
+%============================================
+
+
+
+% ---------------------------------------------------------------------------
+\begin{frame}
+  \frametitle{Why Open Source?}
+  \begin{block}{Motivation for the industry}
+    \begin{itemize}
+    \item accelerate technology transfer from academic institutions
+    \item new research results available as free software 
+    \item accelerate testing of new models and computational methods
+    \item limited research budgets -- cannot fund duplication of effort
+    \item can attack problems commercial providers ignore
+    \end{itemize}
+  \end{block}
+  \begin{block}{Motivation for academia}
+    \begin{itemize}
+    \item facilitate testing of new ideas on models with industry complexity
+    \item control over discretizations and solvers
+    \item ideal for benchmarking, exchange of methods, etc
+    \item with a set of basic building blocks one can go right to the
+      interesting problems
+    \end{itemize}
+  \end{block}
+  A step in the right direction for reproducible sciences
+\end{frame}
+
+
+% ---------------------------------------------------------------------------
+\begin{frame}
+  \frametitle{Licensing and copyright}
+  \begin{block}{GNU General Public License, version 3}
+    \begin{itemize}
+    \item one of the most-used software licenses
+    \item no restriction on usage 
+    \item no restriction on modification
+    \item restriction on distribution: must provide recipient with same rights
+    \end{itemize}
+  \end{block}
+  \begin{block}{Copyright on OPM parts}
+    \begin{itemize}
+    \item mostly held by author organization
+    \item the most important parts have multiple authors
+    \item copyright holders can relicense under arbitrary terms, but all
+      must agree (in general)
+    \end{itemize}
+  \end{block}
+  This means: proprietary programs cannot include OPM code unless {\em all
+  contributors agree}. \\
+  $\implies$ Building a cooperating community, not just a product.
+\end{frame}
+
+% ---------------------------------------------------------------------------
+\begin{frame}
+  \frametitle{How to learn more}
+  \begin{block}{OPM website}
+    \begin{itemize}
+    \item http://opm-project.org
+    \item installation instructions 
+    \item usage tutorials
+    \item recent news and events
+    \end{itemize}
+  \end{block}
+  \begin{block}{Source code on GitHub}
+    \begin{itemize}
+    \item http://github.com/OPM
+    \item one repository per module
+    \item open development through pull requests
+    \item issue trackers for bugs and requests
+    \end{itemize}
+  \end{block}
+  \begin{block}{Other means of communication}
+    \begin{itemize}
+    \item mailing list (go to website to join)
+    \item open OPM meetings for developers and users
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+
+
+\end{document}
