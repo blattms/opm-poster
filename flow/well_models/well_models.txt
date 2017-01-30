@@ -1,0 +1,13 @@
+Standard Well Model:
+Relatively simple
+Assuming uniform fluid compsitions within wellbore (resulting from a single set of primary variables)
+Supporting crossflow
+Adequate in describing the majority of wells in reservoir simulations.
+
+
+Multisegment Well Model:
+Wellbore is discretized with segments
+A set of primary variables is introduced for each segment
+Supporting multilateral wells in a natural way
+More detailed, flexible and accurate well bore simulation
+
