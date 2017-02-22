@@ -31,8 +31,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="239.48602"
-     inkscape:cy="53.233049"
+     inkscape:cx="148.41459"
+     inkscape:cy="279.30448"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      width="510px"
@@ -67,7 +67,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -78,21 +78,21 @@
      transform="translate(4.75,-37.375)">
     <rect
        rx="14.999995"
-       ry="15.839479"
-       y="49.571358"
+       ry="13.258416"
+       y="126.73586"
        x="7.4287663"
-       height="473.5434"
+       height="396.37891"
        width="497.14294"
        id="rect9115"
-       style="color:#000000;fill:#f3f3f3;fill-opacity:1;fill-rule:evenodd;stroke:#cacaca;stroke-width:4.37934494;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible" />
+       style="color:#000000;fill:#f3f3f3;fill-opacity:1;fill-rule:evenodd;stroke:#cacaca;stroke-width:4.00667858;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible" />
     <rect
-       style="color:#000000;fill:#e7f3ff;fill-opacity:1;fill-rule:evenodd;stroke:#b0bce4;stroke-width:5.10401154;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible"
+       style="color:#000000;fill:#e7f3ff;fill-opacity:1;fill-rule:evenodd;stroke:#b0bce4;stroke-width:4.2424159;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible"
        id="rect8084"
        width="477.14285"
-       height="253.62633"
+       height="175.22559"
        x="17.428766"
-       y="98.999931"
-       ry="21.51523"
+       y="177.40068"
+       ry="14.864461"
        rx="14.999995" />
     <g
        id="g3038"
@@ -159,25 +159,14 @@
            y="213.74411">opm-...</tspan></text>
     </g>
     <rect
-       rx="57.32254"
-       ry="41.759377"
-       y="109.14285"
-       x="26.710199"
-       height="146.9929"
-       width="458.58008"
+       rx="27.265806"
+       ry="19.863111"
+       y="189.09074"
+       x="23.837036"
+       height="69.917984"
+       width="218.12628"
        id="rect6118"
-       style="color:#000000;fill:#c8d5ff;fill-opacity:1;fill-rule:evenodd;stroke:#5974b5;stroke-width:10.95942783;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible" />
-    <text
-       xml:space="preserve"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Bitstream Vera Sans"
-       x="255.61401"
-       y="144.4337"
-       id="text6124"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan6126"
-         x="257.84253"
-         y="144.4337">opm-simulators </tspan></text>
+       style="color:#000000;fill:#c8d5ff;fill-opacity:1;fill-rule:evenodd;stroke:#5974b5;stroke-width:5.21271753;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible" />
     <g
        id="g3079"
        transform="translate(-2.5157471e-7,31.428571)">
@@ -269,30 +258,45 @@
     <text
        sodipodi:linespacing="125%"
        id="text9065"
-       y="70.85717"
-       x="255.87502"
+       y="145.85718"
+       x="256.25317"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#646464;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
        xml:space="preserve"><tspan
          sodipodi:role="line"
          id="tspan9071"
-         x="255.87502"
-         y="70.85717">Open Porous Media Initiative (OPM)</tspan><tspan
+         x="256.25317"
+         y="145.85718">Open Porous Media Initiative (OPM)</tspan><tspan
          sodipodi:role="line"
-         x="255.87502"
-         y="88.35717"
+         x="256.25317"
+         y="163.35718"
          id="tspan3065">http://opm-project.org</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
-       x="255.96265"
-       y="173.07613"
-       id="text3049"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan3051"
-         x="255.96265"
-         y="173.07613"
-         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans">black oil, solvent, and polymer simulator</tspan></text>
+    <g
+       id="g3818"
+       transform="translate(-8.6073761,3.3436935)">
+      <text
+         sodipodi:linespacing="125%"
+         id="text6124"
+         y="213.00514"
+         x="141.12132"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="213.00514"
+           x="143.34984"
+           id="tspan6126"
+           sodipodi:role="line">opm-simulators </tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3049"
+         y="236.64757"
+         x="140.96263"
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+         xml:space="preserve"><tspan
+           id="tspan3792"
+           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"
+           y="236.64757"
+           x="142.87279"
+           sodipodi:role="line">black oil, solvent,polymer </tspan></text>
+    </g>
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
@@ -315,17 +319,26 @@
          sodipodi:role="line"
          id="tspan3059"
          x="255.91479"
-         y="204.3324">Finite volumes with TPFA</tspan></text>
+         y="204.3324" /></text>
+    <rect
+       rx="27.265808"
+       ry="19.863108"
+       y="187.17889"
+       x="267.20865"
+       height="69.91803"
+       width="218.12628"
+       id="rect6118-3"
+       style="color:#000000;fill:#c8d5ff;fill-opacity:1;fill-rule:evenodd;stroke:#5974b5;stroke-width:5.21271992;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible" />
     <text
        xml:space="preserve"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"
-       x="256.0686"
-       y="232.87482"
-       id="text3061"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"
+       x="324.992"
+       y="226.00021"
+       id="text3814"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         id="tspan3063"
-         x="256.0686"
-         y="232.87482">2,3 or more phases</tspan></text>
+         id="tspan3816"
+         x="324.992"
+         y="226.00021">opm-upscaling</tspan></text>
   </g>
 </svg>
