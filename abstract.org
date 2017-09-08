@@ -1,4 +1,4 @@
-* The "Porous Media Initiative" (OPM) software
+* The "Open Porous Media Initiative" (OPM) Software
 [2016-12-12 Mo 20:52]
 
 In this poster we will give an overview of the "Open Porous Media
@@ -6,8 +6,10 @@ Initiative" (OPM, http://opm-project.org) software and open data modules. It is 
 effort of both academia and industry to foster collaboration between
 both and thus facilitate innovation using an open source approach. The
 current development focus is CO2 sequestration and improved and
-enhanced oil recovery. Among the contributors are IRIS, SINTEF ICT,
-Statoil, and Ceetron Solutions.
+enhanced oil recovery. Among the contributors are Dr. Blatt ­
+HPC­Simulation­Software & Services, IRIS, NTNU, poware.de, SINTEF,
+Statoil AS, University of Bergen, University of Stuttgart.
+
 
 The OPM software, in part based on DUNE (http://dune-project.org), contains various solvers for
 porous media flow (IMPES, two-phase incompressible transport, a
@@ -21,7 +23,7 @@ ResInsight. Together with the software OPM provides various SPE test
 data sets, and the data of the Norne oil field as open data to allow
 easy experiments and benchmarking.
 
-The software licensed under GNU General Public License (GPL) version 3
+The software is licensed under GNU General Public License (GPL) version 3
 and the data under the Open Database License.
 
 * Authors
